@@ -1,0 +1,221 @@
+
+html, body, .group{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #e8ddb5;
+}
+header{
+   height: 4vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    position: FIXED;
+    top: 0;
+    left: 0;
+    background-color: #e8ddb5;
+}
+.group{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+   
+}
+.group.slides img{
+ margin: 1%;
+    max-width: 90%;
+}
+.text-container{
+display: block;
+text-align: center;
+font-family: 'Courier Prime', monospace;
+padding: 3%;
+display: inline-block;
+margin-top: 15vh;
+
+}
+.text{
+width: 100%;
+display: block;
+margin: 0 auto;
+}
+
+.image-row{
+height: 100%;
+display:flex;
+align-items: center;
+text-align: center;
+}
+.image-row, .img-container{
+    width: 100%;
+    
+}
+.img-container video{
+    max-width: 90%;
+    padding-top: 1%;
+    }
+footer{
+    display: none;
+    width: 100%;
+    
+}
+.socks-image{
+    width: 70% !important;
+}
+.header-title{
+    font-family: 'Courier Prime', monospace;
+    line-height: 4vh;
+ 
+}
+.back-index{
+    line-height: 4vh;
+    color: black;
+    font-size: 4vw;
+    float: left;
+    font-family: 'Courier Prime', monospace;
+    text-decoration: underline dotted;
+    margin-left: 2vw;
+
+}
+.back-index:hover{
+    background-color: #f95148;
+    transition: 0.5s;
+}
+main{
+   display: grid;
+   grid-template-columns: 1fr;
+   height: 90vh;
+}
+.left{
+    max-height: 55vh;
+    width: 100vw;
+   overflow-y: scroll;
+}
+#info{
+    padding: 5%;
+    font-family: 'Courier Prime', monospace;
+  
+}
+.linktitle{
+    display: block;
+    padding-bottom: 5%;
+}
+.right{
+height: 35vh;
+    display: inline-block;
+    text-align: center;
+    width: 100vw;
+}
+#info img{
+    margin: 0 auto;
+}
+.image-container img{
+width: 100%;
+}
+
+.image-container {
+  text-align: center;
+
+    }
+.techstack{
+    padding-top: 2vh;
+    border-top: 2px dotted black;
+}
+.web-link{
+    color: black;
+    margin-bottom: 1vh;
+    display: inline-block;
+    width: auto;
+}
+.web-link:hover{
+    background-color: #f95148;
+    color: black;
+    transition: 0.5s;
+    cursor: alias;
+  }
+
+@media only screen and (min-width: 1200px)  {
+   header{
+    height: 5vh;
+    background-color:  #e8ddb5;
+    z-index: 999;
+   }
+   .group{
+    height: 100%;
+    width: 100% !important;
+    text-align: center;
+    display: inline-block;
+}
+.group.slides img{
+    padding: 70px;
+    max-width: 80%;
+}
+.text-container{
+    display: block;
+text-align: center;
+font-family: 'Courier Prime', monospace;
+font-size: 1.5vw;
+padding: 20px;
+}
+.text{
+width: 900px;
+display: block;
+margin: 0 auto;
+
+}
+.image-row{
+height: 100%;
+
+display: flex;
+align-items: center;
+text-align: center;
+}
+.image-row, .img-container{
+    width: 100%;
+}
+   footer{
+    height: 4vh;
+   }
+   
+    main{
+    grid-template-columns: 1fr 1fr;
+}
+.back-index{
+    line-height: 5vh;
+    font-size: 1.5vw;
+}
+.header-title{
+    line-height: 5vh;
+    font-size: 1.5vw; 
+}
+.left{
+    max-height: 95vh;
+    border-right: 2px dotted black;
+    width: auto;
+}
+.right{
+ height: 95vh;
+  text-align: center;
+  width: auto;
+
+}
+#info{
+    font-size: 1.5vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow-y: auto;
+    height: 96vh;
+    padding: 0;
+    padding-top: 6vh;
+}
+.linktitle{
+    display: block;
+}
+.socks-image{
+    width: 50% !important;
+}
+}
