@@ -366,12 +366,13 @@ padding: 5px 8px;
 max-width: 350px;
   }
   .logo-image{
-  width: 20%;
+  max-width:95px;
+  height: auto;
   padding: 1vh;
 
  }
   .infoblocktext{
-font-size: 4vw;
+font-size: 3vw;
   }
   tbody{
   grid-template-columns: 1fr;
